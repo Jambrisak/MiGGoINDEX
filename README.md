@@ -37,3 +37,8 @@ To make this application work I need to build theese things.
 #### The Project
 - The start of the project was quite difficult for me, where i felt i did not realy know who to build anything of this. But I decided to take it one step at a time to showcase all the different things on at a time. This because i did not know how to put everything together, so instead i chose to showcase everything seperatly.
 - To do this i started first of building the User diagram where i showcase the create and log in button, the log in button take you only to the log in page. And the create button only takes you to the create an account page.
+- I need to figure out how to make the log in button actually log the user in / create a user account.
+- I need to figure out how the setup information that the user selects updates the app so that the user wont have the feeling of "i need to do this again" instead it should give the user a feeling of "ah its a plug an play app". 
+- How to build a diagram that shows the information that the user has selected to show.
+- How to customize the input information about the Users migrain.
+- (future todo will be added)
