@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EcoData>
+  <Objects>
+    <SysSingleton>
+      <id Type="Int32">0</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <ChangeTime Value="11/27/2022 16:01:54">-8585320455706520783</ChangeTime>
+        <Guid>b529c113-7acb-47a7-bfde-49d1d55ee872</Guid>
+        <CreateTime Value="11/27/2022 16:01:54">-8585320455706537219</CreateTime>
+      </attributes>
+      <links />
+    </SysSingleton>
+    <User>
+      <id Type="Int32">1</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <ChangeTime Value="11/27/2022 16:27:13">-8585320440522962794</ChangeTime>
+        <Guid>456c0db9-c354-432d-b2f1-9816b0919091</Guid>
+        <CreateTime Value="11/27/2022 16:26:59">-8585320440657634281</CreateTime>
+        <LastName>Jambrisak</LastName>
+        <UserEmail>jambrisak@gmail.com</UserEmail>
+        <FirstName>Philip</FirstName>
+        <Password>Canada343</Password>
+      </attributes>
+      <links />
+    </User>
+    <SysUser>
+      <id Type="Int32">2</id>
+      <timestamp>1</timestamp>
+      <attributes>
+        <ChangeTime Value="11/27/2022 16:28:34">-8585320439714042496</ChangeTime>
+        <Guid>f1a42387-3652-423c-be14-93b2cc879cc1</Guid>
+        <CreateTime Value="11/27/2022 16:28:34">-8585320439714072770</CreateTime>
+        <SendMeNews isNull="true" />
+        <IsAdmin isNull="true" />
+        <Id>707e0959-d6b7-4e52-9759-700a7f7ec23a</Id>
+        <PasswordHash>AQAAAAEAACcQAAAAEPoqQctxEOVOg/hN4Zy3VAXJySv58oAoG4iBx5/pEMw1MltGrolss/JBMafY1b7Y4Q==</PasswordHash>
+        <UserName>jambrisak@gmail.com</UserName>
+        <SecurityStamp isNull="true" />
+      </attributes>
+      <links />
+    </SysUser>
+  </Objects>
+  <ModelInfo>
+    <package name="Package1Package">
+      <class name="User" id="c9c510ff-e870-4aed-8291-06f51223efd6">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="LastName" id="404d64d5-6a79-4611-a77d-3d84ecd4adc6" />
+        <attribute name="UserEmail" id="7198af0c-a8fe-44e9-a6df-491210f34132" />
+        <attribute name="FirstName" id="ac840eb1-6356-43ae-8a7a-11422e0abd51" />
+        <attribute name="Password" id="f6de13ac-90d2-4111-a54d-2f0fe23cf5fb" />
+      </class>
+    </package>
+    <package name="AuthenticationPackagePackage">
+      <class name="SysUser" id="0017d588-d3cf-433b-b763-93ae056419c3">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="SendMeNews" id="478748bb-b51a-466c-a099-ce7722d20731" />
+        <attribute name="IsAdmin" id="6abf6cc3-a120-48a2-a612-4f1c13c95b60" />
+        <attribute name="Id" id="89122322-2cab-435d-8720-ab8c961dc818" />
+        <attribute name="PasswordHash" id="977ffc63-785a-46d8-adc7-59b60a1ff106" />
+        <attribute name="UserName" id="9f49bb8e-ae50-4ec5-85e5-79c907bafdd3" />
+        <attribute name="SecurityStamp" id="f735f6e1-6746-41d8-b1a2-f2084b7b12d2" />
+      </class>
+      <class name="SysUserRole" id="0f3cc3a3-8d73-463c-83f0-abf087ba0aaf">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <associationend name="SysRoles" id="11db81ec-1bbe-44ec-8b5b-3eabbb98d46a.innerlink" />
+        <associationend name="SysUsers" id="2e115e1e-fcc5-432d-b68b-b8416b0b36db.innerlink" />
+      </class>
+      <class name="SysSuperClass" id="305f131d-d82d-49fa-8735-f894e1d58636">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+      </class>
+      <class name="SysRole" id="56e1db7e-00b4-4273-bb39-1e8ad181328b">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="Name" id="59e869ad-6136-49a7-86d2-074a6595cdf9" />
+      </class>
+      <class name="SysExternalLogin" id="8ea431b6-73df-4536-a07a-751b01f5dd17">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="LoginProvider" id="172a11ee-84fb-412e-8f05-520d45d21416" />
+        <attribute name="ProviderKey" id="780de44d-2a38-4d28-bc4a-3d59f8d52f98" />
+        <associationend name="SysUser" id="8847b309-9ee6-4258-8365-0b100f9c6108" />
+      </class>
+      <class name="SysSingleton" id="ad4cf46f-0195-4197-bef2-9f8dd89a3870">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <associationend name="CurrentUser" id="c58f940a-682a-461e-9c0e-b8536f8381bf" />
+      </class>
+      <class name="SysUserClaim" id="d463013a-d624-45c4-80fd-73d63fd488fa">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="ClaimType" id="8dbb3aee-5e29-48c2-a7e8-deb982109222" />
+        <attribute name="ClaimValue" id="a98174fb-623a-4177-9191-f06c82330fd2" />
+        <attribute name="OriginalIssuer" id="b040b369-b8a5-4a40-bece-f3e8b3904071" />
+        <attribute name="ValueType" id="c2e1a1fc-12fa-49e2-9c7d-0d96530bde2a" />
+        <attribute name="Issuer" id="d2c02585-f187-40de-a32d-6682b908712d" />
+        <associationend name="SysUser" id="12532b0d-4a51-478d-aac8-906470b9eac5" />
+      </class>
+    </package>
+  </ModelInfo>
+  <AutoIncValues>
+    <id value="2" />
+    <version value="1" />
+  </AutoIncValues>
+</EcoData>
