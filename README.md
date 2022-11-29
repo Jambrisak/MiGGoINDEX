@@ -39,6 +39,9 @@ To make this application work I need to build theese things.
 - Now when the user goes to the "app" the user has to login or create an account to see the Index page.
 ##### ToDo
 - Make the buttons open the different autoforms.
+- Make the graph show data from the users selection.
+- Make the log in button / create button direct the user to proper page ie. Create button -> Startup information. Login button -> Home Page.
+- Make the color theme chosen display on the page.
 
 ##### Project Documentation
 - The start of the project was quite difficult for me, where i felt i did not realy know who to build anything of this. But I decided to take it one step at a time to showcase all the different things on at a time. This because i did not know how to put everything together, so instead i chose to showcase everything seperatly.
@@ -47,5 +50,9 @@ To make this application work I need to build theese things.
 - I need to figure out how the setup information that the user selects updates the app so that the user wont have the feeling of "i need to do this again" instead it should give the user a feeling of "ah its a plug an play app". 
 - How to build a diagram that shows the information that the user has selected to show.
 - How to customize the input information about the Users migrain.
-
 - After watching Hans video about authentication i finally cracked the login section to the application. Although not by buttons in the viewmodel but by auto applied buttons on the turnkeyserver.
+
+#### Things in progress to be learnet.
+- Making buttons go to VM.
+- Saving User data to be shown on diffrent sections.
+- Make color theme be shown.
