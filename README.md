@@ -56,3 +56,20 @@ To make this application work I need to build theese things.
 - Making buttons go to VM.
 - Saving User data to be shown on diffrent sections.
 - Make color theme be shown.
+
+#### tips / redo
+- a server / computer does not have a direction everything needs to be stored. It needs to be told to move from part to another part. Login SysSingleton -> some part loaded from settings but also a memory pointer.
+- does not need a seperat user class. Use instead SysUser. Or link SysUser to User.
+- Be aware that SysUser u have 1 seekers - they are just looking for any object for a certain class. Things connected to 1 user is not intersting to look at without context is not useful. Its pointless to have a report migrain without User. A user is looking it shows report, it does not need a seeker.
+- The user needs to add.
+-> User view -> button Create settings etc -> Bind the object to the user. report.migrain.create let report = report.migrain.create r.user = currentuser.
+Classic mistake difference between general search class like user or other which is owned by a user, which should only be created by the user.
+-> Replace SysUser with User. Make the User own report migrain. Create out of the context of the user. User action that calls a method. 
+-> User object .> Method createreportmigrain () use that method in the action. it is also a class action. 
+
+Dropdown menu -> viewmodel actions.
+
+Globalaction - > get to the context (seeker)
+
+Its not MigrainSettings. its MigrainLog. 
+AppSettings is only 1. Several VM that shows different informatiun. AppSettings Vm rooted in User. that shows the info. Different VM for User. Aggregation to consunption. 
