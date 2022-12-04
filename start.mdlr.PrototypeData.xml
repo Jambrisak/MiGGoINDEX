@@ -41,9 +41,84 @@
       </attributes>
       <links />
     </SysUser>
+    <MigrainGraph>
+      <id Type="Int32">3</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <ChangeTime Value="11/30/2022 16:45:59">-8585317837256832096</ChangeTime>
+        <Guid>c1bb2332-db2e-47de-b3d5-b03bc82bfb39</Guid>
+        <CreateTime Value="11/30/2022 16:45:26">-8585317837589945386</CreateTime>
+      </attributes>
+      <links>
+        <User />
+      </links>
+    </MigrainGraph>
+    <AppSettings>
+      <id Type="Int32">4</id>
+      <timestamp>1</timestamp>
+      <attributes>
+        <ChangeTime Value="11/30/2022 16:46:54">-8585317836706640247</ChangeTime>
+        <Guid>27dedb13-a22e-4ed5-999d-a313e5dfbfd3</Guid>
+        <CreateTime Value="11/30/2022 16:46:01">-8585317837238453784</CreateTime>
+        <IndicationsExercise isNull="true" />
+        <IndicationsStress isNull="true" />
+        <IndicationsConsumption>True</IndicationsConsumption>
+        <Indications isNull="true" />
+        <IndicationsSleep>True</IndicationsSleep>
+        <SetTheme isNull="true" />
+        <SetEndTimeForMigrain isNull="true" />
+      </attributes>
+      <links>
+        <User>
+          <type>User</type>
+          <id Type="Int32">1</id>
+        </User>
+      </links>
+    </AppSettings>
+    <User>
+      <id Type="Int32">5</id>
+      <timestamp>2</timestamp>
+      <attributes>
+        <ChangeTime Value="11/30/2022 16:51:53">-8585317833715370971</ChangeTime>
+        <Guid>79857382-2bcc-4eb5-8d59-8732eb94693d</Guid>
+        <CreateTime Value="11/30/2022 16:46:59">-8585317836662597412</CreateTime>
+        <LastName isNull="true" />
+        <UserEmail isNull="true" />
+        <FirstName isNull="true" />
+        <Password isNull="true" />
+      </attributes>
+      <links />
+    </User>
   </Objects>
   <ModelInfo>
     <package name="Package1Package">
+      <class name="ReportMigrain" id="1cfdec4d-7711-418e-9e62-9813f2a3400b">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="StartTime" id="701d725c-c25d-461e-85c3-466dfde2f01d" />
+        <attribute name="StartDate" id="90859daf-fb8d-4333-b0e0-344ec252ef6e" />
+        <attribute name="EndTime" id="9a3dfa6f-a5b2-423c-bc37-e07fabf2b2fb" />
+        <associationend name="User" id="c3901475-616c-45de-8dba-fadd47a0202e" />
+      </class>
+      <class name="MigrainSettings" id="48ab7041-ba89-4634-ab51-14785bdee7a2">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="SetMigrainExercise" id="57ca38c0-c521-4c5a-abd6-cb04c9dbb465" />
+        <attribute name="SetMigrainStress" id="63d5837d-9990-45d7-aa92-be9ed7d0aa18" />
+        <attribute name="SetMigrainConsumption" id="8b7a8a4b-ae71-42ef-a81a-6bfead2726ec" />
+        <attribute name="SetMigrainTime" id="aec66cad-294f-42a8-9b47-c91eb87c7317" />
+        <attribute name="SetMigrainDate" id="c5bb732f-06bd-417e-af54-9dc820189ced" />
+        <attribute name="SetMigrainSleep" id="cabda704-cc1d-4198-9f2f-a911705e7108" />
+        <associationend name="User" id="ddfc0d47-4026-4be0-b5f9-9e3cb81cd0e0" />
+      </class>
+      <class name="MigrainGraph" id="c2a83ff8-919b-4a45-8951-9eed26bc3c70">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <associationend name="User" id="390c3876-936f-4a7d-ad53-5abf324b0f93" />
+      </class>
       <class name="User" id="c9c510ff-e870-4aed-8291-06f51223efd6">
         <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
         <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
@@ -52,6 +127,19 @@
         <attribute name="UserEmail" id="7198af0c-a8fe-44e9-a6df-491210f34132" />
         <attribute name="FirstName" id="ac840eb1-6356-43ae-8a7a-11422e0abd51" />
         <attribute name="Password" id="f6de13ac-90d2-4111-a54d-2f0fe23cf5fb" />
+      </class>
+      <class name="AppSettings" id="d089ba39-45cf-433b-8bc3-f37616e50ae4">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="IndicationsExercise" id="3fd0e820-7790-4390-a155-6123cdbd870a" />
+        <attribute name="IndicationsStress" id="6724b60d-7abd-4494-a971-c5f58d398751" />
+        <attribute name="IndicationsConsumption" id="97046255-7b39-4e9c-9c3c-01e2ad7aa3d3" />
+        <attribute name="Indications" id="a58a720d-ff08-4499-94c1-7dfb18ffe404" />
+        <attribute name="IndicationsSleep" id="bd2db6fb-be8f-4a94-9870-9daa4cc4b858" />
+        <attribute name="SetTheme" id="c10d5f22-23a3-4d44-a2bf-dbb8aed95de8" />
+        <attribute name="SetEndTimeForMigrain" id="dfeb35c3-14cd-4c84-9369-849e79d6f42b" />
+        <associationend name="User" id="2b0b0fce-508b-4970-a75a-e64d993a8565" />
       </class>
     </package>
     <package name="AuthenticationPackagePackage">
@@ -112,7 +200,7 @@
     </package>
   </ModelInfo>
   <AutoIncValues>
-    <id value="2" />
-    <version value="1" />
+    <id value="5" />
+    <version value="2" />
   </AutoIncValues>
 </EcoData>
