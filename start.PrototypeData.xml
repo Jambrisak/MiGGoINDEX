@@ -27,6 +27,51 @@
       </attributes>
       <links />
     </SysUser>
+    <ReportMigrain>
+      <id Type="Int32">10</id>
+      <timestamp>1</timestamp>
+      <attributes>
+        <EndTime isNull="true" />
+        <StartDate isNull="true" />
+        <StartTime isNull="true" />
+      </attributes>
+      <links>
+        <SysUser>
+          <type>SysUser</type>
+          <id Type="Int32">4</id>
+        </SysUser>
+      </links>
+    </ReportMigrain>
+    <ReportMigrain>
+      <id Type="Int32">11</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <EndTime isNull="true" />
+        <StartDate isNull="true" />
+        <StartTime isNull="true" />
+      </attributes>
+      <links>
+        <SysUser>
+          <type>SysUser</type>
+          <id Type="Int32">4</id>
+        </SysUser>
+      </links>
+    </ReportMigrain>
+    <ReportMigrain>
+      <id Type="Int32">12</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <EndTime isNull="true" />
+        <StartDate isNull="true" />
+        <StartTime isNull="true" />
+      </attributes>
+      <links>
+        <SysUser>
+          <type>SysUser</type>
+          <id Type="Int32">4</id>
+        </SysUser>
+      </links>
+    </ReportMigrain>
     <SysExternalLogin>
       <id Type="Int32">2</id>
       <timestamp>0</timestamp>
@@ -73,6 +118,81 @@
       </attributes>
       <links />
     </SysUser>
+    <ReportMigrain>
+      <id Type="Int32">5</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <EndTime isNull="true" />
+        <StartDate isNull="true" />
+        <StartTime isNull="true" />
+      </attributes>
+      <links>
+        <SysUser>
+          <type>SysUser</type>
+          <id Type="Int32">4</id>
+        </SysUser>
+      </links>
+    </ReportMigrain>
+    <ReportMigrain>
+      <id Type="Int32">6</id>
+      <timestamp>1</timestamp>
+      <attributes>
+        <EndTime isNull="true" />
+        <StartDate isNull="true" />
+        <StartTime isNull="true" />
+      </attributes>
+      <links>
+        <SysUser>
+          <type>SysUser</type>
+          <id Type="Int32">4</id>
+        </SysUser>
+      </links>
+    </ReportMigrain>
+    <ReportMigrain>
+      <id Type="Int32">7</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <EndTime isNull="true" />
+        <StartDate isNull="true" />
+        <StartTime isNull="true" />
+      </attributes>
+      <links>
+        <SysUser>
+          <type>SysUser</type>
+          <id Type="Int32">4</id>
+        </SysUser>
+      </links>
+    </ReportMigrain>
+    <ReportMigrain>
+      <id Type="Int32">8</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <EndTime isNull="true" />
+        <StartDate isNull="true" />
+        <StartTime isNull="true" />
+      </attributes>
+      <links>
+        <SysUser>
+          <type>SysUser</type>
+          <id Type="Int32">4</id>
+        </SysUser>
+      </links>
+    </ReportMigrain>
+    <ReportMigrain>
+      <id Type="Int32">9</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <EndTime isNull="true" />
+        <StartDate isNull="true" />
+        <StartTime isNull="true" />
+      </attributes>
+      <links>
+        <SysUser>
+          <type>SysUser</type>
+          <id Type="Int32">4</id>
+        </SysUser>
+      </links>
+    </ReportMigrain>
   </Objects>
   <ModelInfo>
     <package name="Package1Package">
@@ -82,6 +202,7 @@
         <attribute name="StartTime" id="ed7126a2-f5e4-45d5-99cc-380598dd1bc9" />
         <associationend name="SysUser" id="3ff33b16-3adb-41eb-a9ce-f6024630ffb2" />
       </class>
+      <class name="LifetimeLog" id="91fbcdba-a05b-4858-9c08-62d608cd3fe7" />
     </package>
     <package name="AuthenticationPackagePackage">
       <class name="SysUser" id="0017d588-d3cf-433b-b763-93ae056419c3">
@@ -141,7 +262,7 @@
     </package>
   </ModelInfo>
   <AutoIncValues>
-    <id value="4" />
+    <id value="12" />
     <version value="0" />
   </AutoIncValues>
 </EcoData>
