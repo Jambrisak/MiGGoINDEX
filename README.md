@@ -35,13 +35,6 @@ To make this application work I need to build theese things.
 - This it my breakdown on what needs to be built done with flowcharts.
 
 #### The Project
-##### Log In
-- Now when the user goes to the "app" the user has to login or create an account to see the Index page.
-##### ToDo
-- Make the buttons open the different autoforms.
-- Make the graph show data from the users selection.
-- Make the log in button / create button direct the user to proper page ie. Create button -> Startup information. Login button -> Home Page.
-- Make the color theme chosen display on the page.
 
 ##### Project Documentation
 - The start of the project was quite difficult for me, where i felt i did not realy know who to build anything of this. But I decided to take it one step at a time to showcase all the different things on at a time. This because i did not know how to put everything together, so instead i chose to showcase everything seperatly.
@@ -79,3 +72,18 @@ AppSettings is only 1. Several VM that shows different informatiun. AppSettings 
 - Most of the time was spent redisigning the application and making it work. 
 - Still have a difficulty in making button display viewmodel it only goes to accessdenied screen.
 - Color chosen button is somthing i have to scrap i think.
+
+#### The process of building
+What I have had trouble with is not the building blocks (classes, VM or names (somtimes i named things wrong like a class was named ReportMigrain when thats a method because its doing somthing rather then being somthing) But the big problem for me has been the OCL, what to write and how to write it. Its not that i dont understand what for instance onCreate does and when to use it but its how to use it im struggling with.)
+After batteling through this i watched alot of the OCL videos on the wiki, and although its greate and ive learned alot from it its not easy to implement. A sort of cheat sheet for OCL would be great, although the time to make somthing like that would probably be too high. But maybe a scaled down cheat sheet where for instance. I want to create a new report when i press this button how do i implement that. Or, how do i take information from one VM to another and show it in a graph.
+Another thing that is linked to OCL is the issue in making methods, i dont really know when and how yet to make method.
+Another thing that me Lars helped me with alot was the "how to think", because i think that i still think of this as a JavaScript process when its very much not like a JavaScript process. And just talking have unlocked somthing in my mind about how to think. I felt that i understood in the beginning that the wording has to be precise and the wording has to be very direct. And Lars said somthing "Its like talking to a baby", and thats true you have to treat the computer as a baby and you cant make assumptions. Other editors like VScode eliminates that and you can make assumptions which i think has hindered me in this case.
+Other then that im quite pleased at what i managed to achive, although its far from where i want to be due to me having a very high bar for myself. I feel that i get the basics, and that im ready to start learning how to build things more advanced with the help of maybe a cheat sheet, and maybe as Lars pointed out loading up more examples and see how things have been built.
+Another idea that struck me while going through this process was how to teach this, and i think that actually studying other examples and maybe doing a report on what each thing does and track it would be somthing to help in the process of learning.
+##### Still in process of being done.
+- Make the graph show data from the users selection.
+- Make the log in button / create button direct the user to proper page ie. Create button -> Startup information. Login button -> Home Page.
+- Make the color theme chosen display on the page.
+- Save the data from Migrain reports, lifetime log to showcase in a graph.
+- make the settings actually drop indications that the user dont want to log, and make it as an on/off switch.
+- Style the page.
