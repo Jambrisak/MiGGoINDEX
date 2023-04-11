@@ -1,0 +1,52 @@
+:root{
+    --navbar-bg-color: 0, 0, 0;
+}
+#viewmodelSection{
+    padding: 0 !important;
+}
+.PicBg, .pcIndex{
+    background-image: url(../EXT_Images/openingimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#contentWrapper, #viewmodelWrapper, #viewmodelSection{
+    height: calc(100vh - 50px) !important;
+}
+footer{
+    display: none;
+}
+.ShowDetails{
+    display: flex;
+}
+.HideDetails{
+    display: none !important;
+}
+.indicator__wrapper{
+    padding: 0px;
+    background-color: rgb(176,224,231);
+    border-radius: 16px;
+    margin-bottom: 12px;
+    min-width: 300px;
+}
+.indicator__header{
+    padding: 8px;
+}
+.indicator__header p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.indicator__types{
+    padding: 0 8px 8px 8px;
+}
+.nav__footer{
+    width: 100%;
+    background-color: rgb(176,224,231);
+}
+.info__header{
+    background-color: rgb(145,203,165);
+    width: 100%;
+}
+.pcMigrainReport_1_2{
+    left: -13px;
+}

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EcoData>
+  <Objects>
+    <SysSingleton>
+      <id Type="Int32">0</id>
+      <timestamp>0</timestamp>
+      <attributes>
+        <ChangeTime Value="02/27/2023 12:25:02">-8585241097834511313</ChangeTime>
+        <Guid>3ce6d1d9-9f7a-4814-a3e2-d1a17110e5d4</Guid>
+        <CreateTime Value="02/27/2023 12:25:02">-8585241097834511313</CreateTime>
+      </attributes>
+      <links />
+    </SysSingleton>
+  </Objects>
+  <ModelInfo>
+    <package name="Package1Package">
+      <class name="IndicatorLevel" id="1baef56d-0b39-41fe-9cf9-0d3cb79ebd28">
+        <attribute name="GraphValue" id="a420862f-dcfe-45bc-b692-6451a7ffe928" />
+        <associationend name="ExerciseLevel" id="5d99609f-530b-4ee9-88a8-5fd6c6a7de56" />
+        <associationend name="ConsumptionLevel" id="642c2eb5-abac-4de2-bcb4-0e0c3d76c614" />
+        <associationend name="StressLevel" id="b93ce62a-e6f7-4a54-aab7-c6f096c26b69" />
+        <associationend name="SleepLevel" id="fe936472-0b11-40a3-bfeb-69a19b4343d6" />
+        <associationend name="Indicators" id="121d3f8b-ec3f-4e75-af00-e77cc363ef6e.innerlink" />
+        <associationend name="LifetimeLogs" id="03312335-95ce-4b36-9455-24584d6d647d.innerlink" />
+      </class>
+      <class name="MigrainReport" id="319aef37-6ddb-4684-96c7-9fb79084ea79">
+        <attribute name="EndTime" id="85044286-0f46-49ad-80e4-395b82d91d77" />
+        <attribute name="StartDate" id="86054dd1-df49-445a-8d59-872ec0da0fb3" />
+        <attribute name="StartTime" id="ed7126a2-f5e4-45d5-99cc-380598dd1bc9" />
+        <associationend name="MigrainLevel" id="3c4b5e57-8d3e-42e2-b642-53dba52dd4a4" />
+        <associationend name="SysUser" id="3ff33b16-3adb-41eb-a9ce-f6024630ffb2" />
+      </class>
+      <class name="Level" id="584fc377-3a8e-4c43-a364-fb9756193d7d" />
+      <class name="Stress" id="5daa0024-f53a-49a3-9a7a-f2f7eda09ef7">
+        <attribute name="ShowDashboard" id="b89d32ab-9908-444c-bc9c-2e2c08c12757" />
+        <attribute name="Color" id="baf5172e-e810-4b6b-9ab3-78c1fce6c7f0" />
+        <attribute name="Name" id="ca787778-a92f-46d6-bbac-d85371fccb23" />
+        <attribute name="stressCoefficient" id="7f3db0ec-5ed8-44c7-8aad-9f45d83d4d15" />
+      </class>
+      <class name="LifetimeLog" id="6267009c-0703-4a6a-8c8b-4c905412670a">
+        <attribute name="StartTimeLog" id="9e47da5f-890b-43de-bc8d-aa4e7c108cb9" />
+        <attribute name="StartDate" id="ee95b5b9-39f1-4d3f-9454-6a5ba605ab71" />
+        <associationend name="SysUser" id="532aabc1-ccfb-49a5-af86-83eb6ef3f38b" />
+        <associationend name="Day" id="92de7c78-4332-40cd-a625-60a498731e58" />
+      </class>
+      <class name="Indicator" id="6ae584a8-164b-4e90-a1f1-31b6449f607a">
+        <attribute name="ShowDashboard" id="b89d32ab-9908-444c-bc9c-2e2c08c12757" />
+        <attribute name="Color" id="baf5172e-e810-4b6b-9ab3-78c1fce6c7f0" />
+        <attribute name="Name" id="ca787778-a92f-46d6-bbac-d85371fccb23" />
+      </class>
+      <class name="Day" id="8833ffa9-97d6-4b10-96d6-bc420a25a7ad">
+        <attribute name="DailyLog" id="f3ad955e-1e4b-4d55-ab1c-60c039df840d" />
+        <associationend name="SysUser" id="ca205b7d-5817-4eaa-a8ca-50dd59b1351a" />
+      </class>
+      <class name="ExerciseLevel" id="8ec1f8a7-199a-45c5-bd0d-8fd9dca6ca10">
+        <attribute name="GraphValue" id="a3ede34d-af72-4a22-b3d0-dd72071927b0" />
+      </class>
+      <class name="StressLevel" id="b27482c6-f54c-4afe-9ee8-657522439aff">
+        <attribute name="GraphValue" id="08fdd234-c0c2-449c-a1a4-c7ba97916140" />
+      </class>
+      <class name="Consumption" id="c974eb0c-a7a9-425f-a0ed-2ae63fbae556">
+        <attribute name="ShowDashboard" id="b89d32ab-9908-444c-bc9c-2e2c08c12757" />
+        <attribute name="Color" id="baf5172e-e810-4b6b-9ab3-78c1fce6c7f0" />
+        <attribute name="Name" id="ca787778-a92f-46d6-bbac-d85371fccb23" />
+      </class>
+      <class name="SleepLevel" id="d721d9e2-3faa-4c6e-8116-22b0f6ec8e2b">
+        <attribute name="GraphValue" id="45315dbd-1c84-4e08-a728-63a07556bb5e" />
+      </class>
+      <class name="ConsumptionLevel" id="da044f1d-1765-4af7-b778-527eb3f005e7">
+        <attribute name="GraphValue" id="6623e331-b482-4839-8cc4-e85292c6833b" />
+      </class>
+      <class name="UserIndicator" id="da33ac6f-b0ae-4dca-814b-579d727984f0">
+        <attribute name="Amount" id="562f246f-4a78-44b1-ad04-2d288060c842" />
+        <associationend name="SysUsers" id="4b409f30-3820-4173-8494-1e117809c135.innerlink" />
+        <associationend name="Indicators" id="ed436c6c-b29a-4053-9025-bf17ed83baf0.innerlink" />
+      </class>
+      <class name="MigrainLevel" id="db59913e-0ffb-47eb-9789-614413990125">
+        <attribute name="GraphValue" id="b273b722-5b80-4bb4-a28c-8a5f35456c65" />
+      </class>
+      <class name="Sleep" id="e20a164d-c358-40dd-b22c-f0272499fc8a">
+        <attribute name="ShowDashboard" id="b89d32ab-9908-444c-bc9c-2e2c08c12757" />
+        <attribute name="Color" id="baf5172e-e810-4b6b-9ab3-78c1fce6c7f0" />
+        <attribute name="Name" id="ca787778-a92f-46d6-bbac-d85371fccb23" />
+        <attribute name="sleepCoefficient" id="fa350e63-f6fc-4ce5-86af-604aceb644ef" />
+      </class>
+      <class name="Exercise" id="f77c4c4c-a1b2-44c4-8d03-b42532db3b95">
+        <attribute name="ShowDashboard" id="b89d32ab-9908-444c-bc9c-2e2c08c12757" />
+        <attribute name="Color" id="baf5172e-e810-4b6b-9ab3-78c1fce6c7f0" />
+        <attribute name="Name" id="ca787778-a92f-46d6-bbac-d85371fccb23" />
+      </class>
+    </package>
+    <package name="AuthenticationPackagePackage">
+      <class name="SysUser" id="0017d588-d3cf-433b-b763-93ae056419c3">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="SendMeNews" id="478748bb-b51a-466c-a099-ce7722d20731" />
+        <attribute name="IsAdmin" id="6abf6cc3-a120-48a2-a612-4f1c13c95b60" />
+        <attribute name="Id" id="89122322-2cab-435d-8720-ab8c961dc818" />
+        <attribute name="PasswordHash" id="977ffc63-785a-46d8-adc7-59b60a1ff106" />
+        <attribute name="UserName" id="9f49bb8e-ae50-4ec5-85e5-79c907bafdd3" />
+        <attribute name="SecurityStamp" id="f735f6e1-6746-41d8-b1a2-f2084b7b12d2" />
+        <associationend name="Day" id="b3211734-daf1-4a68-baa0-e03350ba2e62" />
+      </class>
+      <class name="SysUserRole" id="0f3cc3a3-8d73-463c-83f0-abf087ba0aaf">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <associationend name="SysRoles" id="11db81ec-1bbe-44ec-8b5b-3eabbb98d46a.innerlink" />
+        <associationend name="SysUsers" id="2e115e1e-fcc5-432d-b68b-b8416b0b36db.innerlink" />
+      </class>
+      <class name="SysSuperClass" id="305f131d-d82d-49fa-8735-f894e1d58636">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+      </class>
+      <class name="SysRole" id="56e1db7e-00b4-4273-bb39-1e8ad181328b">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="Name" id="59e869ad-6136-49a7-86d2-074a6595cdf9" />
+      </class>
+      <class name="SysExternalLogin" id="8ea431b6-73df-4536-a07a-751b01f5dd17">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="LoginProvider" id="172a11ee-84fb-412e-8f05-520d45d21416" />
+        <attribute name="ProviderKey" id="780de44d-2a38-4d28-bc4a-3d59f8d52f98" />
+        <associationend name="SysUser" id="8847b309-9ee6-4258-8365-0b100f9c6108" />
+      </class>
+      <class name="SysSingleton" id="ad4cf46f-0195-4197-bef2-9f8dd89a3870">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <associationend name="CurrentUser" id="c58f940a-682a-461e-9c0e-b8536f8381bf" />
+      </class>
+      <class name="SysUserClaim" id="d463013a-d624-45c4-80fd-73d63fd488fa">
+        <attribute name="ChangeTime" id="595b61dd-b2d6-4010-9557-88d32ad9e4cd" />
+        <attribute name="Guid" id="6c4398ca-d6f8-4763-b162-77c675aa06dc" />
+        <attribute name="CreateTime" id="89803d28-5552-457f-bc84-33f0bf1ba9eb" />
+        <attribute name="ClaimType" id="8dbb3aee-5e29-48c2-a7e8-deb982109222" />
+        <attribute name="ClaimValue" id="a98174fb-623a-4177-9191-f06c82330fd2" />
+        <attribute name="OriginalIssuer" id="b040b369-b8a5-4a40-bece-f3e8b3904071" />
+        <attribute name="ValueType" id="c2e1a1fc-12fa-49e2-9c7d-0d96530bde2a" />
+        <attribute name="Issuer" id="d2c02585-f187-40de-a32d-6682b908712d" />
+        <associationend name="SysUser" id="12532b0d-4a51-478d-aac8-906470b9eac5" />
+      </class>
+    </package>
+  </ModelInfo>
+  <AutoIncValues>
+    <version value="0" />
+    <id value="0" />
+  </AutoIncValues>
+</EcoData>
